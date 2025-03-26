@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: metadata-service-cache
+  description: "Cache for metadata-service"
+  tags:
+    - cache
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: spotify-portal-public-demo/metadata-service-cache
+spec:
+  type: database
+  lifecycle: experimental
+  owner: "group:default/content"

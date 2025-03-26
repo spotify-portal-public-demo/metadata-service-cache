@@ -1,0 +1,8 @@
+site_name: "metadata-service-cache"
+site_description: "Cache for metadata-service"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
